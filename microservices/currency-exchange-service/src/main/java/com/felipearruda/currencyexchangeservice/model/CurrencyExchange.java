@@ -21,6 +21,10 @@ public class CurrencyExchange {
 	private BigDecimal conversionMultiple;
 	private String environment;
 	
+	public CurrencyExchange() {
+		super();
+	}
+
 	public CurrencyExchange(Long id, String from, String to, BigDecimal conversionMultiple) {
 		super();
 		this.id = id;
